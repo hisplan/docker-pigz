@@ -1,5 +1,5 @@
 #!/bin/bash
 
-source version.sh
+source config.sh
 
-docker build -t pigz:${version} .
+docker build -t ${image_name}:${version} .
